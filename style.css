@@ -14,6 +14,12 @@ body {
   line-height: 1.5;
   color: var(--black);
   background-color:rgb(239, 238, 234);
+  /* width: 100%;
+  align-items: center;
+  justify-content: center; */
+    /* display: flex;
+    flex-direction: column; */
+
 }
 p{font-size: 18px;
 font-weight: 500;}
@@ -21,94 +27,101 @@ font-weight: 500;}
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap:none; 
-    padding: 2px;
-    margin-left:10% ;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 100%;
+     gap:1rem; 
+    padding: 10vh; 
+    margin: 0 auto;  
+     /* width: 100vh;
+     height: 100vh;  */
+    align-self: center;
+    /* max-width: 1200px; */
+     /* max-height: fit-content; */
 }
  .create-grid{
-    display: grid;
+    /* display: grid; */
 /* direction: column;
 justify-content: center;
 align-items: center;
 ali  */
     grid-column: 1;
-    grid-row: 1 /span 1.5;
+    grid-row: 1 /span 2;
     background-color: var(--yellow-100);
     padding: 10px;
     border-radius: 10px;
-    max-width: 150px;
-    max-height: 250px;
-    align-items: center;
+    padding-bottom: 0%;
+    /* max-width: 150px;
+    max-height: 250px;*/
+    /* align-items: center;  */
 }
 .create-grid img{
-    width: auto;
-    height: 50px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
+
 }
 .social-grid{
     grid-column:2/span 2;
     grid-row: 1 ;
     background-color: var(--purple-500);
-    padding: 12px;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 370px;
+    padding-bottom: 0px;
+    /* max-width: 370px;
     max-height: 200px;
     align-items: center;
-    align-items: center;
+    align-items: center; */
 }
-.social-grid img{
+/* .social-grid img{
     width: auto;
     height: 50px;
     border-radius: 10px;
-}.schedule-grid{
+} */
+.schedule-grid{
     grid-column: 4 ;
     grid-row: 1/span 2;
     background-color: var(--purple-100);
-    padding: 12px;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 300px;
+    padding-bottom: 0%;
+    /* margin-bottom: auto; */
+    /* max-width: 300px;
     max-height: 400px;
-    align-items: center;
+    align-items: center; */
 
 }
 .schedule-grid img{
-    width: auto;
-    height: 200px;
-    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 .write-grid{
     grid-column: 1;
-    grid-row:2/ span 2;
+    grid-row: 3;
     background-color: var(--yellow-500);
-    padding: 12px;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 150px;
+    /* max-width: 150px;
     max-height: 300px;
-    align-items: center;
+    align-items: center; */
 }
 .write-grid img{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .manage-grid{
     grid-column: 2;
     grid-row: 2.5;
     background-color: var(--white);
-    padding: 12px;
+    padding: 10px;
     margin-left: none;
     border-radius: 10px;
-    max-width: 150px;
+    /* max-width: 150px;
     max-height: 150px;
-    align-items: center;
+    align-items: center; */
 }
 .manage-grid img{
-    width: 150px;
-    height: 40px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .maintain-grid{
@@ -118,14 +131,14 @@ ali  */
     padding: 12px;
     margin-left: 20px;
     border-radius: 10px;
-    max-width: 150px;
+    /* max-width: 150px;
     max-height: 150px;
-    align-items: center;
+    align-items: center; */
 
 }
 .maintain-grid img{
-    width: 150px;
-    height: 50px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .audience-grid{
@@ -135,13 +148,13 @@ ali  */
     padding: 12px;
     margin-left: 20px;
     border-radius: 10px;
-    width: 150px;
+    /* width: 150px;
     height: 150px;
-    align-items: center;
+    align-items: center; */
 }
 .audience-grid img{
-    width: 150px;
-    height: 50px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .followers-grid{
@@ -149,12 +162,12 @@ ali  */
     grid-row: 3;
     background-color: var(--purple-500);
     display: flex;
-    padding: 12px;
-    margin-left: 20px;
+    padding: 10px;
+    /* margin-left: 20px; */
     border-radius: 10px;
-    width: auto;
+    /* width: auto;
     height: 150px;
-    align-items: center;
+    align-items: center; */
 }
 .followers-grid img{
     width: 150px;
