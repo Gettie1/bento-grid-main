@@ -104,8 +104,8 @@ ali  */
     align-items: center; */
 }
 .write-grid img{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .manage-grid{
@@ -162,8 +162,8 @@ ali  */
     grid-row: 3;
     background-color: var(--purple-500);
     display: flex;
-    padding: 12px;
-    margin-left: 20px;
+    padding: 10px;
+    /* margin-left: 20px; */
     border-radius: 10px;
     /* width: auto;
     height: 150px;
